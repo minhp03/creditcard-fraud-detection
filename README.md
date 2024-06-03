@@ -11,21 +11,20 @@ The dataset is highly unbalanced, with the positive class (frauds) accounting fo
 
 Objectives
 
-    To implement various machine learning models to identify patterns indicative of fraud.
-    To handle the imbalanced dataset effectively using SMOTE (Synthetic Minority Over-sampling Technique) to oversample the minority class, thereby providing the models with a more balanced dataset and improving their ability to classify minority class samples accurately.
+To implement various machine learning models to identify patterns indicative of fraud.
+To handle the imbalanced dataset effectively using SMOTE (Synthetic Minority Over-sampling Technique) to oversample the minority class, thereby providing the models with a more balanced dataset and improving their ability to classify minority class samples accurately.
 
 Models Used
 
-    Logistic Regression: A baseline model for binary classification tasks, providing a foundation for performance comparison.
-    Random Forest Classifier: An ensemble method that uses multiple decision trees to improve classification accuracy and control over-fitting.
+Logistic Regression: A baseline model for binary classification tasks, providing a foundation for performance comparison.
+Random Forest Classifier: An ensemble method that uses multiple decision trees to improve classification accuracy and control over-fitting.
 
 Methodology
 
-    Data Preprocessing: Includes scaling of non-PCA features and handling missing values if any.
-    Handling Imbalanced Data: Utilizing SMOTE to artificially increase the number of samples in the minority class.
-    Model Training and Evaluation: Each model is trained on the resampled dataset and evaluated on a separate test set to gauge its performance. Key metrics include accuracy, precision, recall, F1-score, and the ROC curve.
+Data Preprocessing: Includes scaling of non-PCA features and handling missing values if any.
+Handling Imbalanced Data: Utilizing SMOTE to artificially increase the number of samples in the minority class.
+Model Training and Evaluation: Each model is trained on the resampled dataset and evaluated on a separate test set to gauge its performance. Key metrics include accuracy, precision, recall, F1-score, and the ROC curve.
 
-Challenges Addressed
+Challenges 
 
-    Class Imbalance: Enhanced focus on overcoming the challenge of an imbalanced dataset that could bias models towards predicting non-fraudulent transactions.
-    Feature Engineering: Limited scope due to PCA-transformed features, with efforts focused more on model tuning and selection.
+Class Imbalance: Enhanced focus on overcoming the challenge of an imbalanced dataset that could bias models towards predicting non-fraudulent transactions.

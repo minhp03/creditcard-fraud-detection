@@ -1,4 +1,6 @@
 # Credit card Fraud Detection by various machine learning model ( CLF, Random Forest,..) using SMOTE technique to oversampling data
+
+dataset : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 Overview
 
 This project focuses on developing a machine learning solution for detecting fraudulent transactions using credit card data. Given the financial and personal implications of credit card fraud, it's crucial to have robust and accurate systems in place to detect and prevent such activities. This project explores the efficacy of various machine learning classifiers in distinguishing between fraudulent and non-fraudulent transactions.

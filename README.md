@@ -1,4 +1,4 @@
-# Credit card Fraud Detection by various machine learning model ( CLF, Random Forest,..) using SMOTE technique to oversampling data
+# Credit card Fraud Detection by various machine learning method ( CLF, Random Forest,..) using SMOTE technique to oversampling data
 
 dataset : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 Overview
